@@ -1,0 +1,35 @@
+//
+//  ViewServicesTableViewCell.swift
+//  CustomTableView
+//
+//  Created by Deepak mahadev on 09/04/18.
+//  Copyright © 2018 deepak. All rights reserved.
+//
+
+import UIKit
+
+class ViewServicesTableViewCell: UITableViewCell {
+    
+    
+    
+    
+    
+    @IBOutlet weak var imageviewser: UIImageView!
+   // @IBOutlet weak var imageviewservices: UIImageView!
+    
+   // @IBOutlet weak var tableviewlist: UILabel!
+    @IBOutlet weak var servicename: UILabel!
+    
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
+}
